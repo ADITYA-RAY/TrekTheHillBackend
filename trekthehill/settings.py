@@ -18,7 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('secret_key')
-# SECRET_KEY = config('SECRET_KEY')
+#SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -175,6 +175,6 @@ JET_CHANGE_FORM_SIBLING_LINKS = False
 
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000', 'https://www.trekthehill.co',
+    'http://localhost:3000', 'https://www.trekthehill.co','https://trekthehill.co'
 ]
 django_heroku.settings(locals())
