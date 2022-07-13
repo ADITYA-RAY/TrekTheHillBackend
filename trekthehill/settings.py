@@ -176,6 +176,6 @@ JET_CHANGE_FORM_SIBLING_LINKS = False
 
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000', 'https://www.trekthehill.co','https://trekthehill.co'
+    'http://localhost:3000', 'https://www.trekthehill.co','https://trekthehill.co','https://hcnitrr.netlify.app/'
 ]
 django_heroku.settings(locals())
